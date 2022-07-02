@@ -5,7 +5,7 @@ body {
 }
 
 .btn {
-    background-color: rgb(238, 164, 80);
+    background-color: rgb(255, 246, 246);
     color: rgb(44, 41, 38);
     border-radius: 5px;
     padding: 0.5rem;
@@ -30,12 +30,12 @@ a {
     font-size: 1.5rem;
     text-transform: capitalize;
     font-weight: bold;
-    color: rgb(238, 146, 80);
+    color: rgb(255, 246, 246);
 }
 
 main h1 {
     text-align: center;
-    color: rgb(238, 164, 80);
+    color: rgb(255, 246, 246);
     font-size: 3rem;
 }
 
@@ -57,7 +57,7 @@ main h1 {
     background-color: rgb(29, 26, 24);
     border-radius: 6px;
     overflow: hidden;
-    color: rgb(238, 146, 80);
+    color: rgb(255, 246, 246);
 }
 
 .game-item img {
