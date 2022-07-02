@@ -1,0 +1,53 @@
+/* Page style */
+body {
+    background-color: rgb(247, 239, 247);
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#main-header {
+    background: radial-gradient(circle, rgb(140, 0, 255), rgb(140, 75, 255), rgb(140, 150, 255)) ;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.score {
+    text-align: center;
+    color: rgb(42, 42, 42);
+}
+
+/* Game objects style */
+.grid {
+    background-color: rgb(213, 216, 248);
+    margin-top: 5rem;
+    left: calc(50% - 17.5rem);
+    position: absolute;
+    width: 35rem;
+    height: 18.75rem;
+    border: solid black 1px;
+}
+
+.block {
+    position: absolute;
+    width: 6.25rem;
+    height: 1.25rem;
+    background-color: rgb(140, 0, 255);
+}
+
+.user {
+    position: absolute;
+    width: 6.25rem;
+    height: 1.25rem;
+    background-color: rgb(120, 130, 255);
+}
+
+.ball {
+    position: absolute;
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 10px;
+    background-color: rgb(42, 42, 42);
+}

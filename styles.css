@@ -1,0 +1,83 @@
+body {
+    font-family: "Opem Sans", sans-serif;
+    margin: 0;
+    background-color: rgb(44, 41, 38);
+}
+
+.btn {
+    background-color: rgb(238, 164, 80);
+    color: rgb(44, 41, 38);
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 4rem;
+    height: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+#main-header {
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(29, 26, 24);
+    padding: 0 5%;
+}
+
+#logo {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: rgb(238, 146, 80);
+}
+
+main h1 {
+    text-align: center;
+    color: rgb(238, 164, 80);
+    font-size: 3rem;
+}
+
+#games-section {
+    width: 70%;
+    margin: 1rem auto;
+}
+
+#games-section ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.game-item {
+    background-color: rgb(29, 26, 24);
+    border-radius: 6px;
+    overflow: hidden;
+    color: rgb(238, 146, 80);
+}
+
+.game-item img {
+    height: 15rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.game-item-content {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 48rem) {
+    #games-section ul {
+        grid-template-columns: 1fr;
+    }
+
+    main h1 {
+        font-size: 1.5rem;
+    }
+
+}

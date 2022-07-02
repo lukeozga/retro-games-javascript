@@ -70,7 +70,6 @@ function evaluateResults() {
         result = 'You lost!';
     }
 
-    console.log(result)
     resultDisplay.textContent = result;
 }
 

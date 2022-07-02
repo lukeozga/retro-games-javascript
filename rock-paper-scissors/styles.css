@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(247, 239, 247);
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#main-header {
+    background: radial-gradient(circle, rgb(140, 0, 255), rgb(140, 75, 255), rgb(140, 150, 255)) ;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+button {
+    margin: 1rem;
+    color: white;
+    background-color: rgb(140, 0, 255);
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+div h1 {
+    color: rgb(44, 41, 44);
+}
+
+div h2 {
+    color: rgb(44, 41, 44);
+}
+
+body h2 {
+    color: rgb(44, 41, 44);
+}
